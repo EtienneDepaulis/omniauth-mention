@@ -8,6 +8,14 @@ Get a Mention Oauth2.0 API key at their [Developers Area](https://dev.mention.ne
 Usage
 -----
 
+In the Gemfile:
+
+```ruby
+gem 'omniauth'
+gem 'omniauth-oauth2'
+gem 'omniauth-mention'
+```
+
 In a Rack application:
 
 ```ruby
